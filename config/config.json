@@ -2,15 +2,17 @@
     "development": {
       "username": "postgres",
       "password": "postgres",
-      "database": "todo_l6",
+      "database": "todo_db",
       "host": "127.0.0.1",
+      "port":"5432",
       "dialect": "postgres"
     },
     "test": {
       "username": "postgres",
       "password": "postgres",
-      "database": "todo_l6_test",
+      "database": "todo_db_test",
       "host": "127.0.0.1",
+      "port":"5432",
       "dialect": "postgres",
       "logging": false
     },
@@ -19,6 +21,6 @@
       "password": null,
       "database": "database_production",
       "host": "127.0.0.1",
-      "dialect": "mysql"
+      "dialect": "postgres"
     }
   }
